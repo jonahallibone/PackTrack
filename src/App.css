@@ -1,5 +1,25 @@
 .App {
   width: 400px;
   height: 300px;
-  overflow-y: scroll;
+  padding: .5rem;
+}
+
+* > * {
+  box-sizing: border-box;
+}
+
+header {
+  background: #FFF;
+  width: 100%;
+  border-bottom: 1px solid #FFF;
+  padding: 1rem 0;
+}
+
+.app-logo {
+  width: 150px;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
